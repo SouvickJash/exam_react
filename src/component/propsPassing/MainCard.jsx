@@ -8,11 +8,15 @@ const MainCard = () => {
           <h2>code 2</h2>
       </Card>
 
-
-
       {/* <Card name="souvick"/> */}
     </>
   )
 }
 
 export default MainCard
+
+
+
+
+
+

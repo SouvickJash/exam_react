@@ -1,4 +1,4 @@
-import { useState } from "react"
+// import { useState } from "react"
 import Button from "./component/propsPassing/Button"
 import MainCard from "./component/propsPassing/MainCard"
 import Parent from "./component/stateLifting/Parent"
@@ -7,6 +7,10 @@ import FormSubmit from "./component/formValidation/FormSubmit"
 import Toggle from "./component/toggle/Toggle"
 import ParentMain from "./component/propsPassing2/ParentMain"
 import ApiFetching from "./component/apiFetching/ApiFetching"
+import DetailsInUseEffect from "./component/useEffect/DetailsInUseEffect"
+import Route from "./component/crud_json/Route"
+import Home from "./component/crud_json/Home"
+
 
 function App() {
   // const[count,setCount]=useState(0);
@@ -18,8 +22,11 @@ function App() {
 
   return (
     <>
-       {/* <Parent/>    */} {/* lifting state up*/}
-       {/* <MainCard/>   */} {/* props passing*/}
+       {/* <Parent/>     */}
+       {/* lifting state up*/}
+       
+       {/* <MainCard/>   */}
+        {/* props passing*/}
 
        {/* <Button handleClick={handleClick} text="click me">
        <h1> {count}</h1>
@@ -30,7 +37,18 @@ function App() {
        
        {/* passign props */}
        {/* <ParentMain/> */}
-       <ApiFetching/>
+       {/* <ApiFetching/> */}
+
+
+
+       {/* <DetailsInUseEffect/> */}
+
+
+
+
+       {/* CARD operation */}
+        {/* <Route/> */}
+        <Home/>
        
     </>
   )
