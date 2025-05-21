@@ -8,8 +8,9 @@ import Toggle from "./component/toggle/Toggle"
 import ParentMain from "./component/propsPassing2/ParentMain"
 import ApiFetching from "./component/apiFetching/ApiFetching"
 import DetailsInUseEffect from "./component/useEffect/DetailsInUseEffect"
-import Route from "./component/crud_json/Route"
 import Home from "./component/crud_json/Home"
+import Register from "./component/login_register/Register"
+import Routing from "./component/login_register/Routing"
 
 
 function App() {
@@ -47,9 +48,12 @@ function App() {
 
 
        {/* CARD operation */}
-        {/* <Route/> */}
-        <Home/>
+        {/* <Home/> */}
        
+
+       {/* login register */}
+       {/* <Register/>  */}
+       <Routing/>
     </>
   )
 }
